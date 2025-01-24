@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Contabilidade</title>
+    <link rel="stylesheet" href="../assets/css/style-formcadastro.css">
+</head>
+<body>
+    
+    <div class="form">
+        <form action="" method="POST">
+            <p>Solicitação de Cadastro.</p>
+            <p>Este portal é destinado unicamente a Contabilidade.</p>
+            <p>Preencha as informações abaixo que iremos entrar em contato para liberar o seu acesso.</p>
+
+            <input type="text" name="cnpj" placeholder="CNPJ/CPF" required />
+            <input type="text"  name="razao" placeholder="Razão Social" required />
+            <input type="text" name="fantasia" placeholder="Nome fantasia" />
+            <input type="email" name="email" placeholder="E-mail" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"  required />
+            <input type="tel" name="telefone" placeholder="Telefone" id="" required />
+            <textarea name="informacoes" id="" placeholder="Outras informações"></textarea>
+
+            <div class="senha">
+                <input type="password" name="senha" placeholder="Senha" required />
+                <input type="password" name="confirma-senha" placeholder="Confirma a Senha" required />
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>

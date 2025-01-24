@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: 'Inter';
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2b4c99;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 550px;
+
+}
+
+.form{
+    display: block;
+    width: 100%;
+    margin:0 auto; /*Centraliza o Formulário*/
+    text-align: center; /*Centraliza o Conteúdo */
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.form .logo{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form form{
+    display: block;
+    padding: 20px;
+}
+
+.form input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: 0;
+}
+
+.form button{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form .description{
+    margin-top: 70px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #727272;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Inter';
+    font-size: 18px;
+	background-color: #2b4c99;
+	color: #FFFFFF;
+}
+
+.form {
+	display: flex;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	color: #2b4c99;
+}
+
+.form form{
+	display: block;
+	padding: 20px;
+	align-items: center;
+}
+.form input{
+	display: block;
+	width: calc(100% - 40px); /* Ajusta a largura dos inputs*/
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	outline: 0;
+	font-size: 16px;
+}
+
+.form textarea{
+	display: block;
+	width: calc(100% - 40px);
+	height: 100px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	font-size: 16px;
+	outline: 0;
+	resize: none;
+	font-family: 'Inter';
+}
+
+.form .senha{
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.senha input{
+	width: calc(50% - 40px);
+}
+
+.form button{
+	display: block;
+	width: calc(100% - 40px);
+	margin: 7px auto;
+	padding: 10px;
+	background-color: #2b4c99;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+@media (max-width: 500px){
+	.form {
+		width: 300px;
+	}
+}
